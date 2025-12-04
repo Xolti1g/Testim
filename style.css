@@ -1,0 +1,29 @@
+.box{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    animation: mymove 5s infinite;
+    position: absolute;
+}
+
+/* @keyframes mymove {
+    from {
+        top: 0px;
+    }
+    to {
+        top: 200px;
+    }
+} */
+
+@keyframes mymove {
+    0% {
+        top: 0px;
+    }
+    50% {
+        top: 200px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
